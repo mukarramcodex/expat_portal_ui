@@ -80,6 +80,21 @@ const Approvals = () => {
       documents: ['Payment Receipt', 'Bank Statement'],
       stage: 'Payment Review',
       description: 'Registration fee payment verification - insufficient documentation'
+    },
+    {
+      id: 'APP005',
+      type: 'Payment Verification',
+      applicantName: 'Nguyen Van Duc',
+      applicantId: 'WK003',
+      submittedDate: '2024-02-14',
+      submittedBy: 'Asia Pacific Resources',
+      priority: 'High',
+      status: 'Rejected',
+      assignedTo: 'Mr. Raj Kumar',
+      dueDate: '2024-02-21',
+      documents: ['Payment Receipt', 'Bank Statement'],
+      stage: 'Payment Review',
+      description: 'Registration fee payment verification - insufficient documentation'
     }
   ];
 
